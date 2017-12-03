@@ -3,7 +3,7 @@ A simple hack to use middle button scrolling emulation under GNOME Wayland (and 
 Simply clone this repo and run
 
 ```bash
-gcc -shared -ldl -fPIC hook.c -o hook.so
+gcc -shared -ldl -linput -fPIC hook.c -o hook.so
 ```
 
 which will generate a `hook.so` in the current directory.
