@@ -2,7 +2,7 @@ A simple hack to use middle button scroll emulation under GNOME Wayland (and oth
 
 - Dependencies (fedora) : ```sudo dnf install libinput-devel systemd-devel```
 
-- Simply clone this repo and run
+- Simply clone this repo and enter folder: ```git clone <url> && cd scroll-emulation```
 
 - If you want to use Middle click instead of right click, first run this command (no need for right click):
 
