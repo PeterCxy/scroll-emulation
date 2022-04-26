@@ -17,3 +17,7 @@ sudo chmod +x ./install.sh
 ./install.sh
 ```
 Restart and enjoy. (Press right button and move cursor = scroll)
+
+---
+
+For Xorg: https://github.com/Dileep1714/Middle-Click-Autoscrolling-for-linux
