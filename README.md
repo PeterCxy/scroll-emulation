@@ -13,9 +13,17 @@ sed -i 's/libinput_device_config_scroll_set_button(device, 273);//' ./hook.c
 - install:
 
 ```bash
-sudo chmod +x ./install.sh
-./install.sh
+sudo chmod +x ./make.sh
+./make.sh install
 ```
+
+- uninstall:
+
+```bash
+sudo chmod +x ./make.sh
+./make.sh uninstall
+```
+
 Restart and enjoy. (Press right button and move cursor = scroll)
 
 ---
